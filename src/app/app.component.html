@@ -1,0 +1,9 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<div class="control-section">
+  <ejs-schedule width='100%' height='650px' [selectedDate]="selectedDate" [eventSettings]="eventSettings" [(currentView)]="currentView"
+      (eventRendered)="oneventRendered($event)" [timeScale]="timeScale">
+  </ejs-schedule>
+</div>
+
+<router-outlet></router-outlet>
